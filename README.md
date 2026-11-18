@@ -2,7 +2,7 @@
 
 Software engineering and web development student at CENFOTEC University. This repository brings together my academic projects.
 
-**Live portfolio:** https://julian26-salazar04.github.io
+**Live portfolio:** [https://julian26-salazar04.github.io](https://julian26-salazar04.github.io/julian26-salazar04.github-io/)
 
 ## Projects
 
