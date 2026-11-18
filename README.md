@@ -28,4 +28,4 @@ Trabajo con HTML y CSS responsivo, Python, Git y GitHub, Scrum con Jira y diagra
 
 ## Contacto
 
-LinkedIn: _agrega aquí el enlace a tu perfil_
+LinkedIn: Julian Salazar Solis
