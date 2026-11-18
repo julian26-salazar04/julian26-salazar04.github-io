@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mi Perfil</title>
+
+<link rel="stylesheet" href="../css/Perfil.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+🍽️ SaborConecta
+</div>
+
+<nav>
+
+<a href="Inicio.html">Inicio</a>
+<a href="Receta.html">Recetas</a>
+<a href="adminDashboard.html" class="admin-only">Panel Admin</a>
+
+</nav>
+
+<div class="login-sim">
+    <select id="selectorRol">
+        <option value="usuario">Usuario</option>
+        <option value="admin">Administrador</option>
+    </select>
+    <button id="btnLogin">Ingresar</button>
+</div>
+
+<a href="#">Perfil</a>
+
+</header>
+
+<main>
+
+<section class="perfil">
+
+<div class="avatar">
+
+<img src="../assets/foto_usuario.webp" alt="Foto del usuario">
+
+</div>
+
+<div class="info">
+
+<h2>Marco Castillo</h2>
+
+<p>Usuario desde 2023</p>
+
+<p>
+Amante de la cocina mediterránea y las recetas saludables.
+</p>
+
+<button>Editar Perfil</button>
+
+</div>
+
+</section>
+
+<section class="estadisticas">
+
+<div class="card">
+
+<h3>42</h3>
+
+<p>Recetas</p>
+
+</div>
+
+<div class="card">
+
+<h3>243</h3>
+
+<p>Seguidores</p>
+
+</div>
+
+<div class="card">
+
+<h3>1,028</h3>
+
+<p>Siguiendo</p>
+
+</div>
+
+<div class="card">
+
+<h3>89</h3>
+
+<p>Favoritos</p>
+
+</div>
+
+</section>
+
+<section class="contenido">
+
+<div class="mis-recetas">
+
+<h2>Recetas guardadas</h2>
+
+<div class="lista">
+
+<div class="receta">
+
+<h4>Pasta Alfredo</h4>
+
+<p>⭐ 4.8</p>
+
+</div>
+
+<div class="receta">
+
+<h4>Ramen Casero</h4>
+
+<p>⭐ 4.9</p>
+
+</div>
+
+<div class="receta">
+
+<h4>Pizza Artesanal</h4>
+
+<p>⭐ 4.7</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="actividad">
+
+<h2>Actividad reciente</h2>
+
+<ul>
+
+<li>Guardaste "Risotto de Mariscos".</li>
+
+<li>Guardaste una receta de Sushi.</li>
+
+<li>Recibiste un nuevo seguidor.</li>
+
+<li>Comentaste una receta.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+
+© 2026 SaborConecta
+
+</footer>
+
+<!-- Modal Editar Perfil (Persona 4 - Juan Carlos) -->
+<div class="modal-overlay" id="modalOverlay">
+    <div class="modal-editar-perfil" role="dialog" aria-labelledby="tituloModalPerfil" aria-modal="true">
+        <div class="modal-header">
+            <h2 id="tituloModalPerfil">Editar Perfil</h2>
+            <button type="button" id="btnCerrarModal" aria-label="Cerrar formulario">✕</button>
+        </div>
+
+        <form id="formEditarPerfil" novalidate>
+            <div class="campo-form">
+                <label for="nombrePerfil">Nombre completo</label>
+                <input type="text" id="nombrePerfil" name="nombre" value="Marco Castillo" required>
+                <span class="mensaje-campo" id="errorNombre"></span>
+            </div>
+
+            <div class="campo-form">
+                <label for="correoPerfil">Correo electrónico</label>
+                <input type="email" id="correoPerfil" name="correo" placeholder="tucorreo@ejemplo.com" required>
+                <span class="mensaje-campo" id="errorCorreo"></span>
+            </div>
+
+            <div class="campo-form">
+                <label for="bioPerfil">Biografía</label>
+                <textarea id="bioPerfil" name="bio" rows="3">Amante de la cocina mediterránea y las recetas saludables.</textarea>
+                <span class="mensaje-campo" id="errorBio"></span>
+            </div>
+
+            <div class="acciones-modal">
+                <button type="button" id="btnCancelarPerfil" class="btn-secundario">Cancelar</button>
+                <button type="submit" class="btn-primario">Guardar cambios</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="../js/usuario.js"></script>
+<script src="../js/perfil.js"></script>
+
+</body>
+</html>
