@@ -1,39 +1,39 @@
-# Cajero automático en Python
+# ATM Simulator in Python
 
-Programa de consola que simula retiros en un cajero automático. Lo desarrollé para el curso **Principios de Programación 1** (CENFOTEC), como la Tarea 2, Problema 1.
+Console program that simulates withdrawals at an ATM. I built it for **Programming Principles 1** at CENFOTEC University (Assignment 2, Problem 1). The program's prompts and messages are in Spanish.
 
-## Qué hace
+## What it does
 
-Parte de un saldo inicial de ₡250 000 y permite hacer varios retiros seguidos. En cada retiro valida el monto antes de descontarlo y, al terminar, muestra un resumen con el saldo restante y la cantidad de retiros exitosos.
+It starts with an initial balance of ₡250,000 and allows several withdrawals in a row. For each withdrawal it validates the amount before subtracting it and, at the end, shows a summary with the remaining balance and the number of successful withdrawals.
 
-## Reglas de validación
+## Validation rules
 
-| Caso | Resultado |
+| Case | Result |
 |---|---|
-| Monto menor a ₡5 000 | Se rechaza: "Monto menor al mínimo" |
-| Monto mayor a ₡100 000 | Se rechaza: "Monto mayor al máximo" |
-| Monto mayor al saldo disponible | Se rechaza: "Fondos insuficientes" |
-| Monto dentro del rango y con saldo suficiente | Se realiza el retiro y se descuenta del saldo |
+| Amount below ₡5,000 | Rejected: "Monto menor al mínimo" (below minimum) |
+| Amount above ₡100,000 | Rejected: "Monto mayor al máximo" (above maximum) |
+| Amount greater than the available balance | Rejected: "Fondos insuficientes" (insufficient funds) |
+| Amount within range and enough balance | Withdrawal is made and subtracted from the balance |
 
-Después de cada intento se muestra el saldo actual. Si el saldo llega a cero, el programa avisa "Saldo agotado" y termina.
+After each attempt the current balance is shown. If the balance reaches zero, the program prints "Saldo agotado" (balance depleted) and ends.
 
-## Conceptos que practiqué
+## Concepts practiced
 
-- Constantes para los valores fijos (`SALDO_INICIAL`, `RETIRO_MINIMO`, `RETIRO_MAXIMO`)
-- Ciclo `while` con condición doble (respuesta del usuario y saldo mayor a cero)
-- Condicionales `if / elif / else` para validar cada monto
-- Contadores y acumuladores (`retiros_exitosos`, `saldo_actual`)
-- Lectura de datos con `input()` y conversión con `int()`
+- Constants for fixed values (`SALDO_INICIAL`, `RETIRO_MINIMO`, `RETIRO_MAXIMO`)
+- `while` loop with a double condition (user answer and balance greater than zero)
+- `if / elif / else` conditionals to validate each amount
+- Counters and accumulators (`retiros_exitosos`, `saldo_actual`)
+- Reading input with `input()` and converting it with `int()`
 
-## Cómo ejecutarlo
+## How to run it
 
-Necesitas tener Python 3 instalado. Desde una terminal, en la carpeta del archivo:
+You need Python 3 installed. From a terminal, in the file's folder:
 
 ```bash
 python cajero_automatico.py
 ```
 
-## Ejemplo de uso
+## Example
 
 ```
 ¿Desea realizar un retiro? (s/n): s
@@ -47,12 +47,12 @@ Saldo restante: 200000
 Retiros exitosos: 1
 ```
 
-## Posibles mejoras
+## Possible improvements
 
-- Validar que el monto ingresado sea un número, para que el programa no se detenga si se escribe texto.
-- Aceptar respuestas como `S` o `si` además de `s`.
-- Agregar un PIN de acceso y otras operaciones, como depósitos o consulta de saldo.
+- Validate that the amount entered is a number, so the program does not crash if text is typed.
+- Accept answers such as `S` or `si` in addition to `s`.
+- Add an access PIN and other operations, such as deposits or balance inquiry.
 
-## Autor
+## Author
 
-Julián Salazar Solís, estudiante de Ingeniería del Software en la Universidad CENFOTEC.
+Julián Salazar Solís, software engineering student at CENFOTEC University.ría del Software en la Universidad CENFOTEC.
