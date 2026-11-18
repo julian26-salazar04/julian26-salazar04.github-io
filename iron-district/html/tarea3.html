@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Iron District - Gimnasio con clases grupales, entrenadores certificados y membresías flexibles en San José, Heredia y Cartago.">
+    <title>Iron District</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tarea3.css">
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header" id="Inicio">
+        <div class="header-contenido">
+            <i class='bx bx-dumbbell header-icono'></i>
+            <div>
+                <h1>Iron District</h1>
+                <p class="subtitulo">Tu gimnasio favorito</p>
+            </div>
+            <i class='bx bx-dumbbell header-icono'></i>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <ul class="opciones">
+
+            <li class="elemento_menu"><a href="#Inicio">Inicio</a></li>
+
+            <li class="elemento_menu"><a href="#QuienesSomos">Nosotros</a></li>
+
+            <li class="elemento_menu"><a href="#Clases">Clases</a></li>
+
+            <li class="elemento_menu"><a href="#Entrenadores">Entrenadores</a></li>
+
+            <li class="elemento_menu"><a href="#Membresia">Membresías</a></li>
+
+            <li class="elemento_menu"><a href="#Sedes">Sedes</a></li>
+
+            <li class="elemento_menu">
+
+                <a href="javascript:void(0);" tabindex="0">Otros</a>
+
+                <ul class="submenu">
+                    <li><a href="#Formulario">Formulario</a></li>
+                    <li><a href="#Reglas">Reglas</a></li>
+                    <li><a href="#Registro">Registro</a></li>
+                </ul>
+
+            </li>
+
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-texto">
+
+                <span class="hero-estado"><i class='bx bxs-circle'></i> Abierto ahora</span>
+
+                <h2>TU EXCUSA SE QUEDA<br>EN LA PUERTA</h2>
+
+                <p>
+                    Más de 5,000 personas ya dejaron las excusas afuera.
+                    El siguiente turno es tuyo.
+                </p>
+
+                <a href="#Membresia">
+                    <button><i class='bx bx-dumbbell'></i> Únete Ahora</button>
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="estadisticas">
+
+            <div class="dato">
+                <h2>5000+</h2>
+                <p>Clientes Activos</p>
+            </div>
+
+            <div class="dato">
+                <h2>30</h2>
+                <p>Entrenadores</p>
+            </div>
+
+            <div class="dato">
+                <h2>12</h2>
+                <p>Clases</p>
+            </div>
+
+            <div class="dato">
+                <h2>3</h2>
+                <p>Sedes</p>
+            </div>
+
+        </section>
+
+        <section class="quienes-somos" id="QuienesSomos">
+
+            <h2>¿Quiénes Somos?</h2>
+
+            <p>
+                En Iron District creemos que cualquier persona puede lograr una vida
+                saludable mediante entrenamiento, disciplina y constancia.
+            </p>
+
+            <p>
+                Contamos con equipos modernos, entrenadores certificados y un ambiente
+                ideal para ayudarte a cumplir tus metas.
+            </p>
+
+        </section>
+
+        <section class="clases" id="Clases">
+
+            <h2>Nuestras Clases</h2>
+
+            <div class="tarjetas">
+
+                <div class="tarjeta">
+
+                    <img src="../assets/cross_training.webp" alt="Clase de Cross Training en Iron District">
+
+                    <h3>Cross Training</h3>
+
+                    <p>
+                        Entrenamientos intensos para mejorar fuerza,
+                        velocidad y resistencia.
+                    </p>
+
+                    <p><strong>Duración:</strong> 60 minutos.</p>
+
+                    <button>Inscribirse</button>
+
+                </div>
+
+                <div class="tarjeta">
+
+                    <img src="../assets/yoga.webp" alt="Clase de Yoga en Iron District">
+
+                    <h3>Yoga</h3>
+
+                    <p>
+                        Mejora tu flexibilidad, equilibrio y relajación.
+                    </p>
+
+                    <p><strong>Duración:</strong> 50 minutos.</p>
+
+                    <button>Inscribirse</button>
+
+                </div>
+
+                <div class="tarjeta">
+
+                    <img src="../assets/boxeo.webp" alt="Clase de Boxeo en Iron District">
+
+                    <h3>Boxeo</h3>
+
+                    <p>
+                        Aprende técnica mientras mejoras tu condición física.
+                    </p>
+
+                    <p><strong>Duración:</strong> 60 minutos.</p>
+
+                    <button>Inscribirse</button>
+
+                </div>
+
+                <div class="tarjeta">
+
+                    <img src="../assets/spinning.jpg" alt="Clase de Spinning en Iron District">
+
+                    <h3>Spinning</h3>
+
+                    <p>
+                        Cardio de alta intensidad con música motivadora.
+                    </p>
+
+                    <p><strong>Duración:</strong> 45 minutos.</p>
+
+                    <button>Inscribirse</button>
+
+                </div>
+
+                <div class="tarjeta">
+
+                    <img src="../assets/pilates.webp" alt="Clase de Pilates en Iron District">
+
+                    <h3>Pilates</h3>
+
+                    <p>
+                        Fortalece el abdomen, la postura y la movilidad.
+                    </p>
+
+                    <p><strong>Duración:</strong> 50 minutos.</p>
+
+                    <button>Inscribirse</button>
+
+                </div>
+
+                <div class="tarjeta">
+
+                    <img src="../assets/entrenamiento funcional.jpeg" alt="Clase de Entrenamiento Funcional en Iron District">
+
+                    <h3>Entrenamiento Funcional</h3>
+
+                    <p>
+                        Ejercicios para desarrollar fuerza y estabilidad.
+                    </p>
+
+                    <p><strong>Duración:</strong> 60 minutos.</p>
+
+                    <button>Inscribirse</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="entrenadores" id="Entrenadores">
+            <h2 class="section-title">Nuestros Entrenadores</h2>
+
+            <article>
+                <div class="entrenador-avatar">
+                    <img src="../assets/entrenador1.webp" alt="Carlos Ramírez">
+                </div>
+                <h3>Carlos Ramírez</h3>
+                <span class="entrenador-especialidad">Fuerza e Hipertrofia</span>
+
+                <p>
+                    Especialista en fuerza e hipertrofia con más de
+                    10 años de experiencia.
+                </p>
+
+            </article>
+
+            <article>
+                <div class="entrenador-avatar">
+                    <img src="../assets/entrenador2.webp" alt="Justin Villalobos">
+                </div>
+                <h3>Justin Villalobos</h3>
+                <span class="entrenador-especialidad">Yoga y Pilates</span>
+
+                <p>
+                    Instructora certificada en Yoga, Pilates y movilidad.
+                </p>
+
+            </article>
+
+            <article>
+                <div class="entrenador-avatar">
+                    <img src="../assets/entrenador3.webp" alt="David Mora">
+                </div>
+                <h3>David Mora</h3>
+                <span class="entrenador-especialidad">Cross Training</span>
+
+                <p>
+                    Especialista en Cross Training y entrenamiento funcional.
+                </p>
+
+            </article>
+
+        </section>
+
+        <section class="membresia" id="Membresia">
+
+            <h2>Planes de Membresía</h2>
+
+            <div class="tarjetas">
+
+                <div class="tarjeta">
+
+                    <h3>PLAN BÁSICO</h3>
+
+                    <p><del>$30</del></p>
+
+                    <p><strong>$24 / mes</strong></p>
+
+                    <p>20% de descuento</p>
+
+                    <ul>
+                        <li>✔ Acceso al gimnasio.</li>
+                        <li>✔ Rutina personalizada.</li>
+                        <li>✔ Casilleros.</li>
+                        <li>✔ Horario de 6 a.m. a 6 p.m.</li>
+                    </ul>
+
+                    <button>Comprar</button>
+
+                </div>
+
+                <div class="tarjeta">
+
+                    <h3>PLAN PREMIUM</h3>
+
+                    <p><del>$55</del></p>
+
+                    <p><strong>$42 / mes</strong></p>
+
+                    <p>24% de descuento</p>
+
+                    <ul>
+                        <li>✔ Todo lo del Plan Básico.</li>
+                        <li>✔ Clases grupales ilimitadas.</li>
+                        <li>✔ Evaluación física mensual.</li>
+                        <li>✔ Acceso completo.</li>
+                    </ul>
+
+                    <button>Comprar</button>
+
+                </div>
+
+                <div class="tarjeta">
+
+                    <h3>PLAN ELITE</h3>
+
+                    <p><del>$90</del></p>
+
+                    <p><strong>$69 / mes</strong></p>
+
+                    <p>23% de descuento</p>
+
+                    <ul>
+                        <li>✔ Todo lo del Plan Premium.</li>
+                        <li>✔ Entrenador personal.</li>
+                        <li>✔ Plan nutricional.</li>
+                        <li>✔ Acceso VIP.</li>
+                        <li>✔ Invitado gratis una vez al mes.</li>
+                    </ul>
+
+                    <button>Comprar</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="sedes" id="Sedes">
+
+            <h2>Nuestras Sedes</h2>
+
+            <div class="sedes-lista">
+
+                <div class="sede-fila">
+                    <i class='bx bx-map-pin sede-icono'></i>
+                    <div class="sede-info">
+                        <h3>San José Centro</h3>
+                        <p>Avenida Central, frente al Parque Central.</p>
+                    </div>
+                    <div class="sede-horario">
+                        <span>Horario</span>
+                        5:00 a.m. - 10:00 p.m.
+                    </div>
+                </div>
+
+                <div class="sede-fila">
+                    <i class='bx bx-map-pin sede-icono'></i>
+                    <div class="sede-info">
+                        <h3>Heredia</h3>
+                        <p>100 metros al norte del Parque de Heredia.</p>
+                    </div>
+                    <div class="sede-horario">
+                        <span>Horario</span>
+                        5:00 a.m. - 10:00 p.m.
+                    </div>
+                </div>
+
+                <div class="sede-fila">
+                    <i class='bx bx-map-pin sede-icono'></i>
+                    <div class="sede-info">
+                        <h3>Cartago</h3>
+                        <p>Centro Comercial Paseo Metrópoli.</p>
+                    </div>
+                    <div class="sede-horario">
+                        <span>Horario</span>
+                        6:00 a.m. - 9:00 p.m.
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="formulario" id="Formulario">
+
+            <h2>Contáctanos</h2>
+
+            <form>
+
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" id="correo" name="correo" placeholder="Ingrese su correo" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su teléfono">
+
+                <label for="plan">¿Qué plan le interesa?</label>
+
+                <select id="plan" name="plan">
+                    <option>Plan Básico</option>
+                    <option>Plan Premium</option>
+                    <option>Plan Elite</option>
+                </select>
+
+                <label for="mensaje">Mensaje</label>
+
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escriba aquí su mensaje"></textarea>
+
+                <button type="submit">
+                    Enviar Información
+                </button>
+
+            </form>
+
+        </section>
+
+        <section id="Reglas">
+
+            <h2>Reglas del Gimnasio</h2>
+
+            <ol>
+                <li>Utilizar ropa y calzado deportivo.</li>
+                <li>Usar una toalla durante el entrenamiento.</li>
+                <li>Guardar el equipo después de utilizarlo.</li>
+                <li>No dejar pesas ni discos en el suelo.</li>
+                <li>Respetar a los demás usuarios.</li>
+                <li>No consumir alimentos en el área de entrenamiento.</li>
+                <li>Seguir las instrucciones de los entrenadores.</li>
+            </ol>
+
+        </section>
+
+        <section id="Registro">
+
+            <h2>¿Por qué elegir Iron District?</h2>
+
+            <div class="razones">
+
+                <div class="razon">
+                    <i class='bx bx-dumbbell razon-icono'></i>
+                    <h3>Equipos Modernos</h3>
+                    <p>
+                        Contamos con maquinaria de última generación para todo tipo de entrenamiento.
+                    </p>
+                </div>
+
+                <div class="razon">
+                    <i class='bx bx-medal razon-icono'></i>
+                    <h3>Entrenadores Certificados</h3>
+                    <p>
+                        Nuestro equipo está preparado para ayudarte a cumplir tus objetivos.
+                    </p>
+                </div>
+
+                <div class="razon">
+                    <i class='bx bx-group razon-icono'></i>
+                    <h3>Ambiente Motivador</h3>
+                    <p>
+                        Entrena junto a personas que comparten tus mismas metas.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="testimonios">
+
+            <h2>Lo que dicen nuestros clientes</h2>
+
+            <div class="testimonios-lista">
+
+                <div class="testimonio">
+                    <i class='bx bxs-quote-alt-left testimonio-icono'></i>
+                    <p>
+                        Gracias a Iron District logré bajar más de 12 kilos y mejorar mi salud.
+                    </p>
+                    <div class="testimonio-estrellas">⭐⭐⭐⭐⭐</div>
+                    <h4>María López</h4>
+                </div>
+
+                <div class="testimonio">
+                    <i class='bx bxs-quote-alt-left testimonio-icono'></i>
+                    <p>
+                        Los entrenadores siempre están atentos y las instalaciones son excelentes.
+                    </p>
+                    <div class="testimonio-estrellas">⭐⭐⭐⭐⭐</div>
+                    <h4>José Fernández</h4>
+                </div>
+
+                <div class="testimonio">
+                    <i class='bx bxs-quote-alt-left testimonio-icono'></i>
+                    <p>
+                        Las clases grupales son increíbles y el ambiente motiva a seguir entrenando.
+                    </p>
+                    <div class="testimonio-estrellas">⭐⭐⭐⭐⭐</div>
+                    <h4>Sofía Rodríguez</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <h2>Iron District</h2>
+
+        <p>Entrena duro. Vive fuerte.</p>
+
+        <p>
+            <i class='bx bx-map-pin'></i> San José | Heredia | Cartago
+        </p>
+
+        <p>
+            <i class='bx bx-phone'></i> +506 2222-2222
+        </p>
+
+        <p>
+            <i class='bx bx-envelope'></i> contacto@irondistrict.com
+        </p>
+
+        <hr>
+
+        <p>
+            © 2026 Iron District. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
