@@ -1,31 +1,31 @@
-# Julián Salazar Solís · Portafolio
+# Julián Salazar Solís · Portfolio
 
-Estudiante de Ingeniería del Software y desarrollo web en la Universidad CENFOTEC. Este repositorio reúne mis proyectos académicos.
+Software engineering and web development student at CENFOTEC University. This repository brings together my academic projects.
 
-**Portafolio en línea:** https://julian26-salazar04.github.io
+**Live portfolio:** https://julian26-salazar04.github.io
 
-## Proyectos
+## Projects
 
-| Proyecto | Descripción | Tecnologías | Enlaces |
+| Project | Description | Technologies | Links |
 |---|---|---|---|
-| **Iron District** | Sitio web de un gimnasio, hecho sin frameworks, con diseños distintos para móvil, tablet y escritorio. | HTML, CSS | [Ver sitio](https://julian26-salazar04.github.io/iron-district/) · [Código](iron-district) |
-| **SaborConecta** | Aplicación web de recetas hecha en equipo. Me encargué del login simulado con roles, la búsqueda y filtrado de recetas y la accesibilidad por teclado. | HTML, CSS, JavaScript, Git | [Ver sitio](https://julian26-salazar04.github.io/saborconecta/) · [Código](https://github.com/julian26-salazar04/SaborConecta) |
-| **Cajero automático** | Programa de consola que permite varios retiros seguidos, valida montos y muestra un resumen final. | Python | [Código](python/cajero-automatico) |
+| **Iron District** | Gym website built without frameworks, with separate layouts for mobile, tablet and desktop. | HTML, CSS | [View site](https://julian26-salazar04.github.io/iron-district/) · [Code](iron-district) |
+| **SaborConecta** | Recipe web app built as a team. I built the simulated login with roles, recipe search and filtering, and keyboard accessibility. | HTML, CSS, JavaScript, Git | [View site](https://julian26-salazar04.github.io/saborconecta/) · [Code](https://github.com/julian26-salazar04/SaborConecta) |
+| **ATM Simulator** | Console program that handles consecutive withdrawals, validates amounts and prints a final summary. | Python | [Code](python/cajero-automatico) |
 
-## Estructura del repositorio
+## Repository structure
 
 ```
-├── index.html            Página principal del portafolio
-├── iron-district/        Sitio web de Iron District
-├── saborconecta/         Sitio web de SaborConecta
+├── index.html            Main portfolio page
+├── iron-district/        Iron District website
+├── saborconecta/         SaborConecta website
 └── python/
     └── cajero-automatico/
 ```
 
-## Sobre mí
+## About me
 
-Trabajo con HTML y CSS responsivo, Python, Git y GitHub, Scrum con Jira y diagramas UML. Me interesa el desarrollo web y la calidad del software, incluyendo la accesibilidad.
+I work with responsive HTML and CSS, Python, Git and GitHub, Scrum with Jira, and UML diagrams. I am interested in web development and software quality, including accessibility.
 
-## Contacto
+## Contact
 
 LinkedIn: Julian Salazar Solis
